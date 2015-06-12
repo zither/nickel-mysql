@@ -1,0 +1,17 @@
+[package]
+name = "nickel_mysql"
+version = "0.1.0"
+authors = ["Jun Zhou <ilorn.mc@gmail.com>"]
+
+[dependencies]
+plugin = "*"
+typemap = "*"
+nickel = "*"
+
+[dependencies.mysql]
+mysql = "*"
+default-features = false
+
+[[example]]
+name = "example"
+path = "examples/example.rs"
